@@ -22,6 +22,11 @@ Security Group
 
 Rule 편집 기능이 추가되었습니다. 
 
+Load Balancer
+
+기존보다 성능(RPS,Throughput)이 2배 향상된 로드밸런서가 제공됩니다. 이용중이신 모든 로드밸런서의 성능이 향상됩니다.
+Keepalive Timeout을 5분으로 변경하였습니다.
+Listener의 세션 제한값을 최대 60,000 까지 설정할 수 있습니다.
 
 ### 2018.03.22
 
