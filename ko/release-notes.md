@@ -13,6 +13,10 @@ VPC의 리소스 별 최대 생성 가능 개수는 각 리소스 생성 창의 
 * 라우팅 테이블: VPC당 10개까지 생성이 가능합니다.
 * 라우트: 라우팅테이블당 10개까지 생성이 가능합니다. 
 
+Load Balancer
+
+TCP, HTTPS 프로토콜을 사용하는 경우 클라이언트의 IP를 알기 위해 Proxy Protocol을 활성화할 수 있습니다.
+Load Balancer의 Keepalive timeout 값을 설정할 수 있습니다.
 
 
 ### 2018.04.24
