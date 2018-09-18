@@ -6,13 +6,14 @@
 
 Load Balancer
 
-Load Balancer에 Member로 등록된 Instance를 삭제할 때 일부 Listener의 Member가 남아있는 문제를 수정했습니다.
+* Load Balancer에 Member로 등록된 Instance를 삭제할 때 일부 Listener의 Member가 남아있는 문제를 수정했습니다.
 
 #### 기능 개선
 
 Load Balancer
 
-전용 로드밸런서 서비스가 추가되었습니다.
+* "전용 로드밸런서" 서비스가 추가되었습니다. 
+* 전용 로드밸런서는 하드웨어 자원을 선점하여 생성되기 때문에 1Gbps 의 고대역폭과 48만 동시세션을 제공합니다.
 
 ### 2018.08.28
 
