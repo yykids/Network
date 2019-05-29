@@ -1,8 +1,8 @@
 ## Network > 릴리스 노트
 
-### 2019.05.30
+### May 30, 2019
 
-#### 기능 개선
+#### Updates
 
 ##### Load Balancer
 
