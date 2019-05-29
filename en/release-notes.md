@@ -1,4 +1,4 @@
-## Network > 릴리스 노트
+## Network > Release Notes
 
 ### May 30, 2019
 
