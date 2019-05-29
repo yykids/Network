@@ -1,5 +1,15 @@
 ## Network > 릴리스 노트
 
+### May 30, 2019
+
+#### Updates
+
+##### Load Balancer
+
+* [Japan Region] IP access control is available.
+    * IP-based access control is available for load balancer.
+    * For more details on IP access control, see user guides.
+
 ### 2019. 05. 28.
 
 #### 기능 변경
