@@ -6,9 +6,9 @@
 
 ##### Load Balancer
 
-* [일본 리전] IP 접근제어 기능을 사용할 수 있습니다.
-    * IP를 기반으로 한 접근제어 기능을 로드밸런서에서 사용할 수 있습니다.
-    * IP 접근제어 기능에 대한 자세한 사항은 사용자가이드 문서를 참고해주세요.
+* [Japan Region] IP access control is available.
+    * IP-based access control is available for load balancer.
+    * For more details on IP access control, see user guides.
 
 ### 2019. 05. 28.
 
