@@ -1,13 +1,13 @@
 ## Network > Release Notes
 
-### 2019. 08. 27.
+### Aug. 27, 2019 
 
-#### 기능 개선/변경
+#### Feature Updates 
 
 ##### DNS Plus
 
-* 레코드 세트의 최대 생성 가능 개수를 추가했습니다. DNS Zone당 레코드 세트는 최대 5,000개까지 생성할 수 있습니다.
-* 레코드 세트 통계 조회 시 CNAME 레코드 세트 타입은 A 레코드 세트 타입과 AAAA 레코드 세트 타입을 같이 조회하도록 수정했습니다.
+* Exceeded the maximum available number of record sets to be created. For each DNS zone, up to 5,000 record sets can be created. 
+* Modified, in the query of record set statistics for CNAME, to query A record set type along with AAAA record set type. 
 
 ### June 25, 2019
 
