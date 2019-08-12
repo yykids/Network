@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### June 25, 2019
+
+#### Release of New Products
+
+##### DNS Plus
+
+* DNS Plus provides features for domain management.
+* It is easy to configure a DNS server.
+
 ### May 30, 2019
 
 #### Updates
