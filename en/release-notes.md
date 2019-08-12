@@ -1,5 +1,14 @@
 ## Network > Release Notes
 
+### Aug. 27, 2019 
+
+#### Feature Updates 
+
+##### DNS Plus
+
+* Exceeded the maximum available number of record sets to be created. For each DNS zone, up to 5,000 record sets can be created. 
+* Modified, in the query of record set statistics for CNAME, to query A record set type along with AAAA record set type. 
+
 ### June 25, 2019
 
 #### Release of New Products
