@@ -2,6 +2,11 @@
 
 ### Aug. 27, 2019 
 
+##### Load Balancer
+
+* [Korea/Japan Region] It is available to specify TLS version to communicate with clients via TERMINATED_HTTPS load balancer.
+    * For more details on the setting of load balancer in TLS version, see user guide.
+
 #### Feature Updates 
 
 ##### DNS Plus
