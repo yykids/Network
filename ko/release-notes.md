@@ -7,7 +7,7 @@
 ##### Load Balancer
 
 * [한국/일본 리전] TERMINATED_HTTPS 로드밸런서에 클라이언트와 통신할 TLS 버전을 지정할 수 있습니다.
-    * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 사용자 가이드를 참고해 주세요.
+    * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고해 주세요.
 
 ##### DNS Plus
 
