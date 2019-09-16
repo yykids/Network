@@ -5,7 +5,7 @@
 #### 機能改善
 
 * [韓国/日本リージョン] TERMINATED_HTTPSロードバランサーにクライアントと通信するTLSバージョンを指定できます。
-    * ロードバランサーTLSバージョン設定機能の詳細は、ユーザーガイドを参照してください。
+    * ロードバランサーTLSバージョン設定機能の詳細は、[ユーザーガイド](https://docs.toast.com/ja/Network/Load%20Balancer/ja/overview/#ssltls)を参照してください。
 
 ##### DNS Plus
 
