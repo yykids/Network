@@ -10,12 +10,12 @@
 
 ### Aug. 27, 2019 
 
+#### Feature Updates 
+
 ##### Load Balancer
 
 * It is available to specify TLS version to communicate with clients via TERMINATED_HTTPS load balancer.
     * For more details on the setting of load balancer in TLS version, see [user guide](https://docs.toast.com/en/Network/Load%20Balancer/en/overview/#ssltls-version-for-load-balancer).
-
-#### Feature Updates 
 
 ##### DNS Plus
 
