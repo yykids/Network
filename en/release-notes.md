@@ -1,11 +1,19 @@
 ## Network > Release Notes
 
+### Oct. 29, 2019.
+
+#### Feature Updates
+
+##### Load Balancer
+
+* Added the feature of notification via web console, for chain certificate registration, when an individual certificate which is included in the certificate file has an invalid format.
+
 ### Aug. 27, 2019 
 
 ##### Load Balancer
 
-* [Korea/Japan Region] It is available to specify TLS version to communicate with clients via TERMINATED_HTTPS load balancer.
-    * For more details on the setting of load balancer in TLS version, see user guide.
+* It is available to specify TLS version to communicate with clients via TERMINATED_HTTPS load balancer.
+    * For more details on the setting of load balancer in TLS version, see [user guide](https://docs.toast.com/en/Network/Load%20Balancer/en/overview/#ssltls-version-for-load-balancer).
 
 #### Feature Updates 
 
