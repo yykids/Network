@@ -1,5 +1,11 @@
 ## Network > Release Notes
 
+### Dec. 17. 2019.
+
+#### Feature Updates
+* [한국/일본/미국 리전] 인스턴스에 연결된 모든 네트워크 인터페이스에 각각 플로팅 IP를 연결할 수 있습니다.
+
+
 ### Oct. 29, 2019.
 
 #### Feature Updates
