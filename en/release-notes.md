@@ -1,6 +1,6 @@
 ## Network > Release Notes
 
-### 2019. 12.24
+### Dec. 24. 2019.
 
 #### 기능 추가
 
