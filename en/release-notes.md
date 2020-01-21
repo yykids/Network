@@ -1,21 +1,21 @@
 ## Network > Release Notes
 
-### Dec. 24. 2019.
+### Dec. 24, 2019
 
-#### 기능 추가
-
-##### DNS Plus
-
-* 엔드포인트 서버의 트래픽을 안정적으로 로드밸런싱 할 수 있는 GSLB(Global Server Load Balancing) 기능이 추가되었습니다.
-* 생성되는 GSLB 도메인은 라우팅 규칙에 따라 DR(Disaster Recovery), 랜덤 로드밸런싱, 전 세계적인 로드밸런싱으로 구성할 수 있습니다.
-* Pool은 라우팅 규칙을 적용할 수 있는 최소 단위로 엔드포인트 서버를 그룹핑하는 요소입니다.
-* 주기적으로 Pool에 포함된 엔드포인트 서버에 헬스 체크를 수행하여 안정적인 서비스를 지원할 수 있습니다. 헬스 체크는 HTTP/HTTPS/TCP를 지원합니다.
-
-#### 기능 개선
+#### More Features
 
 ##### DNS Plus
 
-* 레코드 세트 생성/수정 시 CNAME 레코드 세트 타입을 사용자의 GSLB 도메인을 선택하여 입력할 수 있도록 개선되었습니다.
+* Added GSLB (Global Server Load Balancing) to allow stable load balancing of traffic at an endpoint server.
+* The GSLB domain can be configured either, according to routing rules, Disaster Recovery (DR), Random, or Global Load Balancing. 
+* The pool serves as a grouping element for endpoint servers at the minimum unit so as to apply the routing rule. 
+* Health check is conducted on a regular basis for endpoint servers included to a pool so as to support stable services. Health check is supported for HTTP/HTTPS/TCP. 
+
+#### Feature Updates
+
+##### DNS Plus
+
+* Updated to select user's GSLB domain for CNAME record set type, for creating/updating the record set. 
 
 ### Dec. 17. 2019.
 
