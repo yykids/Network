@@ -8,6 +8,15 @@
 * DNS(Domain Name System)로 도메인을 간편하게 설정하고 관리할 수 있습니다.
 * GSLB(Global Server Load Balancing)로 라우팅 규칙에 따라 엔드포인트 서버를 DR(Disaster Recovery), 랜덤 로드밸런싱, 전 세계적인 로드밸런싱으로 구성할 수 있습니다.
 
+#### 기능 개선
+##### 플로팅 IP
+* 인스턴스에 연결된 모든 네트워크 인터페이스에 각각 플로팅 IP를 연결할 수 있습니다.
+
+##### Load Balancer
+* TERMINATED_HTTPS 로드밸런서에 클라이언트와 통신할 TLS 버전을 지정할 수 있습니다.
+  * 로드밸런서 TLS 버전 설정 기능에 대한 자세한 사항은 [사용자가이드](https://gov-docs.toast.com/ko/Network/Load%20Balancer/ko/overview/#ssltls)를 참고해 주세요.
+* 체인 인증서를 등록할 때 인증서 파일에 포함된 개별 인증서의 형식이 잘못된 경우, 웹콘솔을 통해 알리는 기능이 추가되었습니다.
+
 ### 2019. 08. 13.
 
 #### 기능 개선
