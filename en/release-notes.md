@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### 2020. 02. 25.
+
+#### Feature Updates
+
+##### Security Groups
+
+* Added "Description" entry to security group rules. You can add description for the security group rule.
+
 ### Dec. 24, 2019
 
 #### More Features
