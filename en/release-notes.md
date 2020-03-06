@@ -6,7 +6,7 @@
 
 ##### Security Groups
 
-* Added "Description" entry to security group rules. You can add description for the security group rule.
+* Added "Description" for the rule of security group. Description can be included for each rule of security group.
 
 ### Dec. 24, 2019
 
