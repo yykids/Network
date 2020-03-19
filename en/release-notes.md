@@ -13,9 +13,9 @@
 
 #### Feature Updates
 
-##### Security Groups
+##### Security Group
 
-* Added "Description" for the rule of security group. Description can be included for each rule of security group.
+* Added "Description" entry to security group rules. You can add description for each security group rule.
 
 ### Dec. 24, 2019
 
@@ -246,9 +246,9 @@
 * Object Storage에 이어 Compute&Network 상품을 API를 이용해 관리할 수 있습니다.
 * 현재 제한적인 기능만 이용할 수 있으며, 추후 API 추가를 통해 기능이 확장되었습니다.
 
-#### 버그 수정
+#### Bug Fixes
 
-* Project에 Admin 권한이 없는 사용자가 security group을 수정할 수 없도록 수정되었습니다.
+* Fixed to disallow users without project admin authority to modify security group.
 * Project에 Admin 권한이 없는 사용자에게는 Network 메뉴가 노출되지 않도록 수정되었습니다.
 
 ### 2017. 08. 24.
@@ -310,7 +310,7 @@
 * Floating IP에 연결된 Load Balancer의 이름이 노출되지 않는 문제를 수정하였습니다.
 
 ##### Security Group
-* 중복된 Rule 추가 시 Security Group 목록이 사라지는 문제를 수정하였습니다.
+* Fixed an issue in which security group list disappears when a duplicate rule is added.
 
 
 
