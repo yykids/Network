@@ -2,7 +2,7 @@
 
 ### 2020. 03. 24.
 
-#### 기능 개선
+#### 機能改善
 
 ##### Load Balancer
 
@@ -186,7 +186,7 @@
 
 * Floating IP 목록에 페이지네이션 기능을 적용했습니다.
 
-##### Security Group
+##### 보안 그룹(security group)
 
 * Rule 편집 기능이 추가되었습니다.
 
@@ -250,7 +250,7 @@
 
 #### 버그 수정
 
-* Project에 Admin 권한이 없는 사용자가 security group을 수정할 수 없도록 수정되었습니다.
+* Project에 Admin 권한이 없는 사용자가 보안 그룹(security group)을 수정할 수 없도록 수정되었습니다.
 * Project에 Admin 권한이 없는 사용자에게는 Network 메뉴가 노출되지 않도록 수정되었습니다.
 
 ### 2017. 08. 24.
@@ -311,8 +311,8 @@
 ##### Floating IP
 * Floating IP에 연결된 Load Balancer의 이름이 노출되지 않는 문제를 수정하였습니다.
 
-##### Security Group
-* 중복된 Rule 추가 시 Security Group 목록이 사라지는 문제를 수정하였습니다.
+##### 보안 그룹(security group)
+* 중복된 Rule 추가 시 보안 그룹 목록이 사라지는 문제를 수정하였습니다.
 
 
 
