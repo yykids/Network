@@ -1,12 +1,21 @@
 ## Network > Release Notes
 
-### 2020. 02. 25.
+### 2020. 03. 24.
+
+#### 기능 개선
+
+##### Load Balancer
+
+* Cert Manager 서비스를 통한 인증서 관리기능이 추가 되었습니다.
+* Cert Manager 서비스에 인증서를 등록하고 리스너에 해당 인증서를 연결하면 이메일로 인증서 만료일 알람을 받을 수 있습니다.
+
+### Feb. 25, 2020
 
 #### Feature Updates
 
-##### Security Groups
+##### Security Group
 
-* Added "Description" entry to security group rules. You can add description for the security group rule.
+* Added "Description" entry to security group rules. You can add description for each security group rule.
 
 ### Dec. 24, 2019
 
@@ -28,7 +37,7 @@
 ### Dec. 17. 2019.
 
 #### Feature Updates
-* [한국/일본/미국 리전] 인스턴스에 연결된 모든 네트워크 인터페이스에 각각 플로팅 IP를 연결할 수 있습니다.
+* [Korea/Japan/US Region] Every network interface connected with an instance can be assosicated with each floating IP. 
 
 ### Oct. 29, 2019.
 
@@ -237,9 +246,9 @@
 * Object Storage에 이어 Compute&Network 상품을 API를 이용해 관리할 수 있습니다.
 * 현재 제한적인 기능만 이용할 수 있으며, 추후 API 추가를 통해 기능이 확장되었습니다.
 
-#### 버그 수정
+#### Bug Fixes
 
-* Project에 Admin 권한이 없는 사용자가 security group을 수정할 수 없도록 수정되었습니다.
+* Fixed to disallow users without project admin authority to modify security group.
 * Project에 Admin 권한이 없는 사용자에게는 Network 메뉴가 노출되지 않도록 수정되었습니다.
 
 ### 2017. 08. 24.
@@ -301,7 +310,7 @@
 * Floating IP에 연결된 Load Balancer의 이름이 노출되지 않는 문제를 수정하였습니다.
 
 ##### Security Group
-* 중복된 Rule 추가 시 Security Group 목록이 사라지는 문제를 수정하였습니다.
+* Fixed an issue in which security group list disappears when a duplicate rule is added.
 
 
 
