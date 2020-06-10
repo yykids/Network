@@ -6,11 +6,11 @@
 
 ##### VPC
 
-* Public API v2가 출시됩니다. Public API v2는 오픈스택 API와 호환됩니다.
+* Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
 
 ##### Load Balancer
 
-* Public API v2가 출시됩니다. Public API v2는 오픈스택 API와 호환됩니다.
+* Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
 
 ### 2020. 04. 07.
 
