@@ -1,5 +1,17 @@
 ## Network > 릴리스 노트
 
+### 2020. 06. 16.
+
+#### 기능 개선
+
+##### VPC
+
+* Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
+
+##### Load Balancer
+
+* Public API v2가 출시됩니다. Public API v2는 Openstack API와 호환됩니다.
+
 ### 2020. 04. 07.
 
 #### 신규 상품 출시
