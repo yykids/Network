@@ -9,6 +9,10 @@
 * Network ACL 기능이 추가되었습니다.
 * ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
 
+##### Load Balancer
+
+* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://docs.toast.com/ko/Network/Load%20Balancer/ko/public-api/#ip-acl)를 참고해 주세요.
+
 ### 2020. 06. 23.
 
 #### 기능 변경
