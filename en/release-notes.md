@@ -1,8 +1,8 @@
 ## Network > Release Notes
 
-### 2020. 03. 24.
+### 2020. 03. 24. March 24, 2020
 
-#### 기능 개선
+#### 기능 개선 Feature Updates 
 
 ##### Load Balancer
 
@@ -80,43 +80,43 @@
     * IP-based access control is available for load balancer.
     * For more details on IP access control, see user guides.
 
-### 2019. 05. 28.
+### 2019. 05. 28. May 28, 2019
 
-#### 기능 변경
+#### 기능 변경 Feature Updates 
 
 ##### VPC
 
-* [한국 리전] 피어링 생성 기능을 다시 사용할 수 있습니다.
+* [Korea Region] Creating a peering can be made available again. 피어링 생성 기능을 다시 사용할 수 있습니다.
 
-### 2019. 04. 25.
+### 2019. 04. 25. April 25, 2019
 
-#### 기능 개선
+#### 기능 개선 Feature Updates 
 
 ##### Load Balancer
 
-* IP 접근제어 기능을 사용할 수 있습니다.
-    * IP를 기반으로 한 접근제어 기능을 로드밸런서에서 사용할 수 있습니다.
-    * IP 접근제어 기능에 대한 자세한 사항은 사용자가이드 문서를 참고해주세요.
-    * 유선으로 설정 요청하신 제어 대상 IP 목록은 Default 라는 이름의 IP 접근제어 그룹에 자동 반영되었습니다.
+* IP 접근제어 기능을 사용할 수 있습니다. IP access control is available. 
+    * IP를 기반으로 한 접근제어 기능을 로드밸런서에서 사용할 수 있습니다. IP-based access control is available at load balancer. 
+    * IP 접근제어 기능에 대한 자세한 사항은 사용자가이드 문서를 참고해주세요.For more details on IP access control features, see User Guide. 
+    * 유선으로 설정 요청하신 제어 대상 IP 목록은 Default 라는 이름의 IP 접근제어 그룹에 자동 반영되었습니다. List of IPs for control has been auto-applied to the IP acces control group named Default.  
 
-### 2018. 12. 27.
+### 2018. 12. 27. December 27, 2018
 
-#### 기능 변경
+#### 기능 변경 Feature Updates 
 
 ##### VPC
 
-* 피어링 된 두 VPC 사이의 통신 시 패킷 플러딩이 발생할 가능성이 있어, 당분간 새로운 피어링 생성 기능을 제공하지 않습니다.
+* 피어링 된 두 VPC 사이의 통신 시 패킷 플러딩이 발생할 가능성이 있어, 당분간 새로운 피어링 생성 기능을 제공하지 않습니다. Since packet flooding is 
 	기존에 만들어진 피어링의 통신에는 문제가 없으며 피어링 생성을 제외한 나머지 기능은 그대로 제공됩니다.
 
-### 2018. 11. 27.
+### 2018. 11. 27. November 27, 2018
 
-#### 버그 수정
+#### 버그 수정 Bug Fixes 
 
 ##### Load Balancer
 
 * 로드 밸런서에 리스너를 추가 생성하는 경우, 비활성화된 인스턴스에 추가된 인스턴스 멤버가 활성화된채 생성되는 버그를 수정하였습니다.
 
-#### 기능 개선
+#### 기능 개선 Feature Updates 
 
 ##### Load Balancer
 
@@ -127,48 +127,48 @@
     * 자세한 사항은 사용자가이드 문서를 참고해주세요.
 
 
-### 2018. 09. 20.
+### 2018. 09. 20. September 20, 2018 
 
-#### 버그 수정
-
-##### Load Balancer
-
-* Load Balancer에 Member로 등록된 Instance를 삭제할 때 일부 Listener의 Member가 남아있는 문제를 수정했습니다.
-
-#### 기능 개선
+#### 버그 수정 Bug Fixes 
 
 ##### Load Balancer
 
-* 전용 로드밸런서 서비스가 추가되었습니다. 
-* 전용 로드밸런서는 하드웨어 자원을 선점하여 생성되기에 1Gbps의 대역폭과 48만 동시세션을 지원합니다.
+* Load Balancer에 Member로 등록된 Instance를 삭제할 때 일부 Listener의 Member가 남아있는 문제를 수정했습니다. Fixed an issue in which members remain from some listeners when deleting instance which is registered as member of load balancer.  
 
-### 2018. 08. 28.
+#### 기능 개선 Feature Updates
 
-#### 버그 수정
+##### Load Balancer
+
+* 전용 로드밸런서 서비스가 추가되었습니다. Added dedicated load balancer services. 
+* 전용 로드밸런서는 하드웨어 자원을 선점하여 생성되기에 1Gbps의 대역폭과 48만 동시세션을 지원합니다. Since dedicated load balancer services are created by occupying hardware resources, 1Gbps bandwidth for 48 thousand concurrent sessions are supported.   
+
+### 2018. 08. 28. August 28, 2018 
+
+#### 버그 수정 Bug Fixes 
 
 ##### VPC
 
-* 라우트가 존재하는 서브넷을 가진 VPC에 대해 삭제를 시도할 수 있는 문제를 수정했습니다.
+* 라우트가 존재하는 서브넷을 가진 VPC에 대해 삭제를 시도할 수 있는 문제를 수정했습니다. Fixed an issue in which deleting may be tried to VPC with subnets that have routes 
 
-#### 기능 변경
+#### 기능 변경 Feature Updates 
 
 ##### VPC
 
-* 서브넷, 라우팅 테이블, 라우트에 대해 최대 생성 가능 개수를 조정했습니다.
-* VPC의 리소스 별 최대 생성 가능 개수는 각 리소스 생성 창의 우측 설명 부분에서 확인하실 수 있습니다.
-    * 서브넷: VPC당 10개까지 생성이 가능합니다.
-    * 라우팅 테이블: VPC당 10개까지 생성이 가능합니다.
-    * 라우트: 라우팅 테이블당 10개까지 생성이 가능합니다.
+* 서브넷, 라우팅 테이블, 라우트에 대해 최대 생성 가능 개수를 조정했습니다. Updated the maximum available numbers to create subnet, routing table, and route. 
+* VPC의 리소스 별 최대 생성 가능 개수는 각 리소스 생성 창의 우측 설명 부분에서 확인하실 수 있습니다. Check the maximum available numbers to create each resource of VPC from description on the right of the popup.  
+    * Subnet 서브넷: Available up to 10 for each VPC. 당 10개까지 생성이 가능합니다.
+    * Routing Table 라우팅 테이블: Available up to 10 for each VPC. 당 10개까지 생성이 가능합니다.
+    * Route 라우트: Available up to 10 for each routing table. 라우팅 테이블당 10개까지 생성이 가능합니다.
 
 ##### Load Balancer
 
-* TCP, HTTPS 프로토콜을 사용하는 경우 클라이언트의 IP를 알기 위해 Proxy Protocol을 활성화할 수 있습니다.
-* Load Balancer의 Keepalive timeout 값을 설정할 수 있습니다.
+* TCP, HTTPS 프로토콜을 사용하는 경우 클라이언트의 IP를 알기 위해 Proxy Protocol을 활성화할 수 있습니다. For TCP or HTTPS protocol, proxy protocol can be activated to check client IP. 
+* Load Balancer의 Keepalive timeout 값을 설정할 수 있습니다. Keepalive timeout can be configured for load balancer.  
 
 
-### 2018. 04. 24.
+### 2018. 04. 24. April 24, 2018 
 
-#### 버그 수정
+#### 버그 수정 Bug Fixes 
 
 ##### VPC
 
