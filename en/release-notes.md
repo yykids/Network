@@ -9,7 +9,7 @@
 * Added Certificate management through the Cert Manager service.
 * By registering a certificate at Cert Manager and connecting it to the listener, you can receive an email on certificate expiration date.
 
-### Feb. 25, 2020
+### February 25, 2020
 
 #### Feature Updates
 
@@ -17,7 +17,7 @@
 
 * Added "Description" entry to security group rules. You can add description for each security group rule.
 
-### Dec. 24, 2019
+### December 24, 2019
 
 #### More Features
 
@@ -34,12 +34,12 @@
 
 * Updated to select user's GSLB domain for CNAME record set type, for creating/updating the record set. 
 
-### Dec. 17. 2019.
+### December 17. 2019.
 
 #### Feature Updates
 * [Korea/Japan/US Region] Every network interface connected with an instance can be assosicated with each floating IP. 
 
-### Oct. 29, 2019.
+### October 29, 2019.
 
 #### Feature Updates
 
@@ -47,7 +47,7 @@
 
 * Added the feature of notification via web console, for chain certificate registration, when an individual certificate which is included in the certificate file has an invalid format.
 
-### Aug. 27, 2019 
+### August 27, 2019 
 
 #### Feature Updates 
 
