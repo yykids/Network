@@ -1,5 +1,15 @@
 ## Network > Release Notes
 
+#### Feature Updates
+
+##### VPC
+
+* Public API v2, which is compatible with Openstack API, is to be released.  
+
+##### Load Balancer
+
+* Public API v2, which is compatible with Openstack API, is to be released. 
+
 ### March 24, 2020
 
 #### Feature Updates 
