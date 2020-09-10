@@ -4,11 +4,11 @@
 
 ##### VPC
 
-* Public API v2, which is compatible with Openstack API, is to be released.  
+* Released Public API v2, which is compatible with Openstack API.  
 
 ##### Load Balancer
 
-* Public API v2, which is compatible with Openstack API, is to be released. 
+* Released Public API v2, which is compatible with Openstack API. 
 
 ### March 24, 2020
 
