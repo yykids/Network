@@ -15,6 +15,13 @@
 
 * 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
 
+#### 기능 추가
+
+##### Load Balancer
+
+* Public API v2가 IP 접근 제어 기능을 지원합니다. 자세한 사항은 [로드밸런서API가이드](https://gov-docs.toast.com/ko/Network/Load%20Balancer/ko/public-api-gov/#ip-acl)를 참고해 주세요.
+
+
 ### 2020. 08. 25.
 
 #### 기능 개선
