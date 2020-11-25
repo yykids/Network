@@ -2,7 +2,7 @@
 
 ### 2020. 11. 24.
 
-### 기능 추가
+#### 기능 추가
 
 #### Network Interface
 * Network Interface 기능이 추가되었습니다.
