@@ -7,6 +7,8 @@
 #### Network Interface
 * Added Network Interface service.
 
+### June 23, 2020
+
 #### Feature Updates
 
 ##### VPC
