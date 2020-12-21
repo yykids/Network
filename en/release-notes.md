@@ -1,6 +1,6 @@
 ## Network > Release Notes
 
-### December 13, 2020
+### January 9, 2021
 
 #### 기능 변경
 
