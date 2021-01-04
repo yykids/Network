@@ -2,11 +2,11 @@
 
 ### January 9, 2021
 
-#### 기능 변경
+#### Feature Updates
 
 ##### VPC
 
-* [한국 판교 리전] 라우팅 테이블의 기본 라우트(VPC 주소 영역 전체로의 로컬 라우트)가 적용되지 않는 문제를 수정했습니다. 기존에는 VPC 내의 서브넷이라도 같은 라우팅 테이블에 연결되어 있는 서브넷 간에만 통신이 가능했지만, 서로 다른 라우팅 테이블에 연결되어 있는 서브넷 간에도 통신이 가능합니다.
+* [Pangyo region, Korea] Fixed the issue where the default route (local route to the whole VPC address area) of routing table is not properly applied. Previously, even subnets within the VPC same could communicate with one another only if they are all connected to the same routing table. Now, communication is possible between subnets connected to different routing tables.
 
 ### November 24, 2020
 
