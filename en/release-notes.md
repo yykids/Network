@@ -1,5 +1,13 @@
 ## Network > Release Notes
 
+### January 9, 2021
+
+#### Feature Updates
+
+##### VPC
+
+* [Pangyo region, Korea] Fixed the issue where the default route (local route to the whole VPC address area) of routing table is not properly applied. Previously, even subnets within the VPC same could communicate with one another only if they are all connected to the same routing table. Now, communication is possible between subnets connected to different routing tables.
+
 ### November 24, 2020
 
 #### Feature Updates
@@ -7,8 +15,31 @@
 #### Network Interface
 * Added Network Interface service.
 
+### September 22, 2020
+
+#### 기능 개선
+
+##### DNS Plus
+
+* 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
+
+### August 25, 2020
+
+#### 기능 추가
+
+##### Network ACL
+
+* [한국 평촌 리전] Network ACL 기능이 추가되었습니다. ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
+
 ### June 23, 2020
 
+#### 기능 변경
+
+##### VPC
+* [한국/일본/미국 리전] 라우팅 테이블의 라우트 생성 창에서 게이트웨이 항목에 IP를 직접 입력하는 방식을 IP를 소유한 장치를 선택하는 방식으로 변경했습니다. 라우팅 테이블에 명시적으로 연결하지 않은 서브넷의 장치도 선택할 수 있습니다.
+* [한국/일본/미국 리전] 인터넷 게이트웨이 목록에서 IP 정보 대신 연결된 라우팅 테이블의 정보를 표시하도록 변경했습니다. 라우팅 테이블의 라우트 탭에서도 연결된 인터넷 게이트웨이의 이름이 표시됩니다.
+
+### May 26, 2020
 #### Feature Updates
 
 ##### VPC
@@ -17,7 +48,10 @@
 
 ##### Load Balancer
 
-* Released Public API v2, which is compatible with Openstack API.
+* 로드 밸런서와 동일한 VPC에 속한 다른 서브넷의 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 로드 밸런서가 속한 서브넷과 인스턴스의 서브넷이 라우팅 테이블에 연결되어야 합니다.
+* 로드 밸런서가 속한 VPC가 피어링(peering) 연결되어 있다면, 피어 VPC에 속한 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 피어 VPC의 기본 라우팅 테이블에 연결된 서브넷의 인스턴스만 연결할 수 있습니다.
+* 로드 밸런서에 여러 리스너를 운용하는 경우 모든 리스너에 동일한 멤버 인스턴스를 구성해야 했었는데, 이제는 리스너별 멤버 인스턴스를 서로 다르게 설정할 수 있습니다.
+* Released Public API v2, which is compatible with Openstack API. 
 
 ### March 24, 2020
 
