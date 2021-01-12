@@ -1,13 +1,5 @@
 ## Network > Release Notes
 
-### January 9, 2021
-
-#### Feature Updates
-
-##### VPC
-
-* [Pangyo region, Korea] Fixed the issue where the default route (local route to the whole VPC address area) of routing table is not properly applied. Previously, even subnets within the VPC same could communicate with one another only if they are all connected to the same routing table. Now, communication is possible between subnets connected to different routing tables.
-
 ### November 24, 2020
 
 #### Feature Updates
