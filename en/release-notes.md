@@ -1,5 +1,21 @@
 ## Network > Release Notes
 
+### January 26, 2021
+
+#### More Features
+
+##### NAT gateway
+
+* [Pyeongchon region, Korea] Added the NAT gateway feature.
+
+### January 9, 2021
+
+#### Features changed
+
+##### VPC
+
+* [Pangyo region, Korea] Fixed the issue where the default route (local route to the whole VPC address area) of routing table is not properly applied. Previously, even subnets within the VPC could communicate with one another only if they are all connected to the same routing table. Now, communication is possible between subnets connected to different routing tables.
+
 ### November 24, 2020
 
 #### Feature Updates
@@ -9,27 +25,28 @@
 
 ### September 22, 2020
 
-#### 기능 개선
+#### Feature updates
 
 ##### DNS Plus
 
-* 레코드 세트 수정 시 레코드 세트 타입 수정이 가능하도록 개선되었습니다.
+- Improved the application so that the record set type can be edited when editing a record set.
 
 ### August 25, 2020
 
-#### 기능 추가
+#### More Features
 
 ##### Network ACL
 
-* [한국 평촌 리전] Network ACL 기능이 추가되었습니다. ACL 기능을 이용해 프로토콜, IP, 포트별로 접근을 제어할 수 있습니다.
+- [Pyeongchon region, Korea] Added the Network ACL feature. The feature can be used to control access per protocol/IP/port.
 
-### June 23, 2020
+### une 23, 2020
 
-#### 기능 변경
+#### Feature updates
 
 ##### VPC
-* [한국/일본/미국 리전] 라우팅 테이블의 라우트 생성 창에서 게이트웨이 항목에 IP를 직접 입력하는 방식을 IP를 소유한 장치를 선택하는 방식으로 변경했습니다. 라우팅 테이블에 명시적으로 연결하지 않은 서브넷의 장치도 선택할 수 있습니다.
-* [한국/일본/미국 리전] 인터넷 게이트웨이 목록에서 IP 정보 대신 연결된 라우팅 테이블의 정보를 표시하도록 변경했습니다. 라우팅 테이블의 라우트 탭에서도 연결된 인터넷 게이트웨이의 이름이 표시됩니다.
+
+- [Korea/Japan/USA region] Changed the way to enter the IP of a gateway from manually typing in the address to selecting the device owning the IP from the Create Route window of a routing table. The devices that are not explicitly associated with a routing table in the subnet can also be selected.
+- [Korea/Japan/USA region] Changed the Internet gateway list to display the information of the associated routing table instead of the IP information. The name of the associated Internet gateway is also displayed in the Route tab of a routing table.
 
 ### May 26, 2020
 #### Feature Updates
@@ -40,10 +57,9 @@
 
 ##### Load Balancer
 
-* 로드 밸런서와 동일한 VPC에 속한 다른 서브넷의 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 로드 밸런서가 속한 서브넷과 인스턴스의 서브넷이 라우팅 테이블에 연결되어야 합니다.
-* 로드 밸런서가 속한 VPC가 피어링(peering) 연결되어 있다면, 피어 VPC에 속한 인스턴스를 로드 밸런서의 멤버로 등록할 수 있습니다. 피어 VPC의 기본 라우팅 테이블에 연결된 서브넷의 인스턴스만 연결할 수 있습니다.
-* 로드 밸런서에 여러 리스너를 운용하는 경우 모든 리스너에 동일한 멤버 인스턴스를 구성해야 했었는데, 이제는 리스너별 멤버 인스턴스를 서로 다르게 설정할 수 있습니다.
-* Released Public API v2, which is compatible with Openstack API. 
+- The instance of a different subnet that belongs to the same VPC as Load Balancer can be registered as a member of Load Balancer. The subnet to which Load Balancer belongs and the subnet of the instance need to be connected to the routing table.
+- The instance that belongs to a peer VPC can be registered as a member of Load Balancer if the VPC to which Load Balancer belongs has a peering connection. Only the instances of the subnet connected to the default routing table of the peer VPC can be connected.
+- Now, the member instance of each listener can be configured differently. Previously, all the listeners needed to have the same member instance when running multiple listeners in Load Balancer.
 
 ### March 24, 2020
 
